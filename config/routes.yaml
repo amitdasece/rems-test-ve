@@ -1,0 +1,8 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+app_import:
+    path: /import
+    # the controller value has the format 'controller_class::method_name'
+    controller: App\Controller\ImportController::index
